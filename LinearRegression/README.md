@@ -25,7 +25,7 @@ $$
 \end{align}
 $$
 
-E para regressão linear múltipla sendo:
+E para regressão linear múltipla (com w e x agora sendo vetores):
 
 $$
 \begin{align}

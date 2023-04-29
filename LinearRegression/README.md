@@ -16,7 +16,7 @@ $$\begin{align*} \text{repetir}&\text{ até convergir:} \ \lbrace \newline
  b &= b -  \alpha \frac{\partial J(w,b)}{\partial b}  \newline \rbrace
 \end{align*}$$
 
-Com o cálculo derivadas para regressão linear simples sendo representadas por:
+Com o cálculo das derivadas para regressão linear simples sendo representadas por:
 
 $$
 \begin{align}

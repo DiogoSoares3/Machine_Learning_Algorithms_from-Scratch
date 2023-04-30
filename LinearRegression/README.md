@@ -23,7 +23,7 @@ $$
 \frac{\partial J(w,b)}{\partial w}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)} \\\
   \frac{\partial J(w,b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)}) \\\
 \end{align}
-\text{com m sendo o número de amostras (linhas)} \
+\text{m = n° amostras (linhas)} \
 $$
 
 E para regressão linear múltipla (com w e x agora sendo vetores):

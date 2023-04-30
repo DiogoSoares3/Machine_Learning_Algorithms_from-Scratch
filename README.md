@@ -9,5 +9,3 @@ Além disso, ao implementar um algoritmo do zero, conseguimos adquirir habilidad
 Outra vantagem de aprender algoritmos de machine learning do zero é que, ao compreender como o modelo funciona, podemos ter uma noção maior do que estamos realmente fazendo ao utilizar algoritmos prontos da biblioteca sklearn e quais seriam suas melhores formas de aplicação, por exemplo.
 
 Pretendo demonstrar os algoritmos de Regressão Linear, Reregressão Logística, Suport Vector Machines, Árvores de Decisão, K Nearest Neighbors, Random Forest, K-Means, PCA e Naive Bayes.
-
-Em resumo, aprender algoritmos de machine learning do zero é fundamental para fortalecer os conhecimentos em machine learning, possibilitando um entendimento mais aprofundado dos conceitos teóricos, uma maior habilidade em programação e desenvolvimento de software, além de uma capacidade mais refinada de solucionar problemas e desenvolver soluções avançadas em machine learning.

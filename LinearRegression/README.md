@@ -33,7 +33,7 @@ $$
 \frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)} \  \\
 \frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \
 \end{align}
-\text{com m sendo o número de amostras (linhas)} \
+\text{m = n° amostras (linhas)} \
 $$
 
 Em ambos os casos, a construção do algoritmo permite uma maior compreensão do funcionamento da regressão linear e dos métodos utilizados para encontrar a melhor linha de ajuste aos dados. Além disso, é uma oportunidade para praticar habilidades de programação e matemática, bem como para aprimorar a capacidade de análise de dados.

@@ -8,7 +8,11 @@ $$g(z^{(i)}) \frac{1}{1+e^{-z^{(i)}}}$$
 
 * com $z^{(i)}$ sendo representado por:
 
-$$z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\$$
+$$
+\begin{align}
+z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\
+\end{align}
+$$
 
 Para regressão logísitca, a fórmula para a função de custo J é:
 

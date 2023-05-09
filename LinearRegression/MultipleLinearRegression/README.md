@@ -16,3 +16,13 @@ $$\begin{align*} \text{repetir}&\text{ até convergir:} \ \lbrace \newline\
 & w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j}\;\newline
 &b\ \ = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b}  \newline \rbrace
 \end{align*}$$
+
+Onde n é o número de features. Parâmetros $w_j$ e $b$ são atualizados simultaneamente:
+
+$$
+\begin{align}
+\frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)} \tag{6}  \\
+\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \tag{7}
+\end{align}
+$$
+* m é o número de amostras(linhas) no conjunto de dados.

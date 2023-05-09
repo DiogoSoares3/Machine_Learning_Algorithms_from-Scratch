@@ -25,4 +25,4 @@ $$
 \text{m = n° amostras (linhas)} \
 $$
 
-Com isso nós podemos realizar a descidade de gradiente e achar os valores ideais para os parâmetros da regressão.
+Com isso nós podemos realizar a descida de gradiente e achar os valores ideais para os parâmetros da função.

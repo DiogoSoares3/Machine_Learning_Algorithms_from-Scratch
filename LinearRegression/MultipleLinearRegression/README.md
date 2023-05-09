@@ -9,6 +9,8 @@ Mas agora com $\mathbf{w}$ e $\mathbf{x}^{(i)}$ sendo vetores.
 Para calcular a função de custo utilizaremos a mesma função que de regressão linear simples:
 
 $$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})^2$$
+* m é o número de amostras(linhas) no conjunto de dados.
+
 
 Descida de gradiente para múltplas variáveis:
 
@@ -25,6 +27,5 @@ $$
 \frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})
 \end{align}
 $$
-* m é o número de amostras(linhas) no conjunto de dados.
 
 Com isso nós podemos realizar a descida de gradiente e achar os valores ideais para os parâmetros da função.

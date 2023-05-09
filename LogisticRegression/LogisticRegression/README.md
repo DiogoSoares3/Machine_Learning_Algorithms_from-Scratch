@@ -14,7 +14,7 @@ z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\
 \end{align}
 $$
 
-Para regressão logísitca, a fórmula para a função de custo J é:
+Para regressão logística, a fórmula para a função de custo J é:
 
 $$ J(\mathbf{w},b) = \frac{1}{m} \sum_{i=0}^{m-1} \left[ loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) \right]$$
 

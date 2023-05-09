@@ -24,3 +24,12 @@ $$
   g(z^{(i)}) &= \frac{1}{1+e^{-z^{(i)}}}
 \end{align}
 $$
+
+Para a descida de gradiente, temos a mesma fórmula que a da regressão linear, mas agora com f_{\mathbf{w},b}(\mathbf{x^{(i)}}) sendo a função sigmoide
+
+$$\begin{align*}
+&\text{repetir até convergir} \ \lbrace \\
+&  \; \; \;w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \tag{1}  \;\\ 
+&  \; \; \;  \; \;b = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b} \\
+&\rbrace
+\end{align*}$$

@@ -29,7 +29,7 @@ Para a descida de gradiente, temos a mesma fórmula que a da regressão linear, 
 
 $$\begin{align*}
 &\text{repetir até convergir} \ \lbrace \\
-&  \; \; \;w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \tag{1}  \;\\ 
-&  \; \; \;  \; \;b = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b} \\
+&  w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \;\\ 
+&  b = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b} \\
 &\rbrace
 \end{align*}$$

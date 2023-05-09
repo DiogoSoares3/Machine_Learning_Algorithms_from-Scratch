@@ -28,8 +28,6 @@ Onde
 $$
 \begin{align}
   f_{\mathbf{w},b}(\mathbf{x^{(i)}}) &= g(z^{(i)})\\
-  z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\
-  g(z^{(i)}) &= \frac{1}{1+e^{-z^{(i)}}}
 \end{align}
 $$
 

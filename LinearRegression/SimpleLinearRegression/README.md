@@ -7,7 +7,7 @@ $$f_{w,b}(x^{(i)}) = wx^{(i)} + b$$
 
 Para a função de custo J estaremos usando:
 $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2$$
-* m é o número de amostras(linhas) no conjunto de dados.
+* m é o número de amostras (linhas) no conjunto de dados.
 
 
 Para a atualização dos parâmetros w e b da regressão:

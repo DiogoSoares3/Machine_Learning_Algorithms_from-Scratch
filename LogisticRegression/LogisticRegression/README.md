@@ -1,6 +1,6 @@
 # Regressão Logística
 
-Para a predição de valores, estaremos usando a função sigmoide. Ela é uma função matemática que transforma valores em uma escala contínua entre 0 e 1, o que a torna útil na regressão logística. Na regressão logística, a função sigmoide é usada para modelar a probabilidade de um evento binário ocorrer
+Para a predição de valores, estaremos usando a função sigmoide. Ela é uma função matemática que transforma valores em uma escala contínua entre 0 e 1, o que a torna útil na regressão logística. Na regressão logística, a função sigmoide é usada para modelar a probabilidade de um evento binário ocorrer.
 
 A função sigmoide g é representada pela equação:
 
@@ -40,8 +40,10 @@ $$\begin{align*}
 Onde cada iteração realiza atualizações simultâneas nos parâmetros $w_j$ para todo $j$, onde
 
 $$\begin{align*}
-\frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)} \tag{2} \\
-\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \tag{3} 
+\frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)}  \\
+\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})
 \end{align*}$$
   
 * $f_{\mathbf{w},b}(x^{(i)})$ é a predição do modelo, enquanto $y^{(i)}$ é o target.
+
+Feito isso, podemos achar os valores ideais para os parâmetros da função de predição.

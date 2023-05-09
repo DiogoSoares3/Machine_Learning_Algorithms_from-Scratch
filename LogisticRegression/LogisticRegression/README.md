@@ -15,7 +15,7 @@ Onde
 
     $$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = -y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)$$
     
-*  onde m é o número de amostras (linhas) no dataset e:
+*  onde m é o número de amostras (linhas) no dataset e
 
 $$
 \begin{align}

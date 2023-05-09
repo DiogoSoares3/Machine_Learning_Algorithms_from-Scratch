@@ -5,6 +5,7 @@ Para a predição de valores, estaremos usando a função sigmoide. Ela é uma f
 A função sigmoide g é representada pela equação:
 
 $$g(z^{(i)}) \frac{1}{1+e^{-z^{(i)}}}$$
+                  com
 $$z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\$$
 
 Para regressão logísitca, a fórmula para a função de custo J é:

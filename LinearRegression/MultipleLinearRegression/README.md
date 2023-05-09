@@ -17,7 +17,7 @@ $$\begin{align*} \text{repetir}&\text{ até convergir:} \ \lbrace \newline\
 &b\ \ = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b}  \newline \rbrace
 \end{align*}$$
 
-Onde n é o número de features. Parâmetros $w_j$ e $b$ são atualizados simultaneamente:
+Parâmetros $w_j$ e $b$ são atualizados simultaneamente:
 
 $$
 \begin{align}
@@ -26,3 +26,5 @@ $$
 \end{align}
 $$
 * m é o número de amostras(linhas) no conjunto de dados.
+
+Com isso nós podemos realizar a descida de gradiente e achar os valores ideais para os parâmetros da função.

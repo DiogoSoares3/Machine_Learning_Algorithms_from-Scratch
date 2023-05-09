@@ -9,12 +9,14 @@ Para a função de custo J estaremos usando:
 $$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2$$
 
 Para a atualização dos parâmetros w e b da regressão:
+
 $$\begin{align*} \text{repetir}&\text{ até convergir:} \ \lbrace \newline
 \  w &= w -  \alpha \frac{\partial J(w,b)}{\partial w} \  \ \newline 
  b &= b -  \alpha \frac{\partial J(w,b)}{\partial b}  \newline \rbrace
 \end{align*}$$
 
 Com o cálculo das derivadas sendo representadas por:
+
 $$
 \begin{align}
 \frac{\partial J(w,b)}{\partial w}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)} \\\

@@ -4,9 +4,10 @@ Para a predição de valores, estaremos usando a função sigmoide. Ela é uma f
 
 A função sigmoide g é representada pela equação:
 
-$$g(z^{(i)}) \frac{1}{1+e^{-z^{(i)}}}$$
-                  com
-$$z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\$$
+$$\begin{align*}
+g(z^{(i)}) \frac{1}{1+e^{-z^{(i)}}}
+z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\
+\end{align*}$$
 
 Para regressão logísitca, a fórmula para a função de custo J é:
 
@@ -37,6 +38,7 @@ $$\begin{align*}
 \end{align*}$$
 
 Onde cada iteração realiza atualizações simultâneas nos parâmetros $w_j$ para todo $j$, onde
+
 $$\begin{align*}
 \frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)} \tag{2} \\
 \frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \tag{3} 

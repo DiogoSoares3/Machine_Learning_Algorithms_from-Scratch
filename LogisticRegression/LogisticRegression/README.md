@@ -6,7 +6,7 @@ A função sigmoide g é representada pela equação:
 
 $$g(z^{(i)}) \frac{1}{1+e^{-z^{(i)}}}$$
 
-* com $$z^{(i)}$$ sendo representado por:
+* com $z^{(i)}$ sendo representado por:
 
 $$z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\$$
 

@@ -5,7 +5,7 @@ Para a predição de valores, estaremos usando a função sigmoide. Ela é uma f
 A função sigmoide g é representada pela equação:
 
 $$\begin{align*}
-g(z^{(i)}) \frac{1}{1+e^{-z^{(i)}}}
+g(z^{(i)}) \frac{1}{1+e^{-z^{(i)}}};  
 z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\
 \end{align*}$$
 

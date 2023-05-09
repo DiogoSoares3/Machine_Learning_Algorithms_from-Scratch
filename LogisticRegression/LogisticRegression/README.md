@@ -25,7 +25,7 @@ $$
 \end{align}
 $$
 
-Para a descida de gradiente, temos a mesma fórmula que a da regressão linear, mas agora com f_{\mathbf{w},b}(\mathbf{x^{(i)}}) sendo a função sigmoide
+Para a descida de gradiente, temos a mesma fórmula que a da regressão linear, mas agora com $$f_{\mathbf{w},b}(\mathbf{x^{(i)}})$$ sendo a função sigmoide
 
 $$\begin{align*}
 &\text{repetir até convergir} \ \lbrace \\
@@ -33,3 +33,11 @@ $$\begin{align*}
 &  b = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b} \\
 &\rbrace
 \end{align*}$$
+
+Onde cada iteração realiza atualizações simultâneas nos parâmetros $w_j$ para todo $j$, onde
+$$\begin{align*}
+\frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)} \tag{2} \\
+\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \tag{3} 
+\end{align*}$$
+  
+* $f_{\mathbf{w},b}(x^{(i)})$ é a predição do modelo, enquanto $y^{(i)}$ é o target.

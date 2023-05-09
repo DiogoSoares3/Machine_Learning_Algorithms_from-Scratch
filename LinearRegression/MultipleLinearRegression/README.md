@@ -1,3 +1,5 @@
+# Regressão Linear Múltipla
+
 No caso da regressão linear múltipla, em que há duas ou mais variáveis independentes, a implementação do algoritmo se torna mais complexa. É necessário aplicar a mesma lógica utilizada na regressão linear simples, mas com ajustes para lidar com mais de uma variável independente. No caso, esse ajuste contém a multiplicação de escalar por vetores. Esse problema de álgebra linear pode ser resolvido usando a biblioteca Numpy.
 
 A função que estaremos usando para realizar predições com a regressão linear múltipla é:

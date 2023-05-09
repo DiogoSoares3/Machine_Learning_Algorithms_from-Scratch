@@ -1,39 +1,17 @@
 # Regressão Linear do zero (Scratch)
 
-Para a implementação do algoritmo, foram utilizados métodos como a função de custo e a descida de gradiente. A função de custo é utilizada para medir a diferença entre as previsões do modelo e os valores reais dos dados. Já a descida de gradiente é um método iterativo utilizado para minimizar a função de custo, ajustando os parâmetros do modelo a cada iteração.
+A regressão linear é uma técnica estatística usada para encontrar a relação entre duas variáveis, geralmente uma variável dependente e uma ou mais variáveis independentes. Essa técnica é amplamente usada em muitas áreas, como ciências sociais, economia, engenharia e saúde, para prever o valor de uma variável dependente com base em uma ou mais variáveis independentes.
 
-No caso da regressão linear simples, em que há apenas uma variável independente, o algoritmo se torna relativamente simples. Primeiramente, é necessário calcular a média e o desvio padrão dos dados. Em seguida, é aplicada a descida de gradiente para encontrar os valores ótimos dos coeficientes da equação linear. Por fim, é possível utilizar a equação para fazer previsões.
+A regressão linear pode ser usada para resolver vários tipos de problemas, como:
 
-Já no caso da regressão linear múltipla, em que há duas ou mais variáveis independentes, a implementação do algoritmo se torna mais complexa. É necessário aplicar a mesma lógica utilizada na regressão linear simples, mas com ajustes para lidar com mais de uma variável independente. No caso, esse ajuste contém a multiplicação de escalar por vetores. Esse problema de álgebra linear pode ser resolvido usando a biblioteca Numpy.
+Prever valores futuros: a regressão linear pode ser usada para prever o valor de uma variável dependente no futuro com base em dados históricos. Por exemplo, uma empresa pode usar a regressão linear para prever as vendas futuras com base nas vendas passadas.
 
-Para a função de custo J foi utilizado:   
-$$J(w,b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})^2$$
+Analisar a relação entre variáveis: a regressão linear pode ser usada para analisar a relação entre duas ou mais variáveis. Por exemplo, pode-se usar a regressão linear para estudar a relação entre o tempo gasto estudando e as notas obtidas em um exame.
 
-Para a atualização dos parâmetros w e b da regressão:
+Identificar fatores importantes: a regressão linear pode ser usada para identificar os fatores mais importantes que afetam uma variável dependente. Por exemplo, pode-se usar a regressão linear para identificar os fatores que afetam o preço das casas, como o tamanho da casa, o número de quartos e a localização.
 
-$$\begin{align*} \text{repetir}&\text{ até convergir:} \ \lbrace \newline
-\  w &= w -  \alpha \frac{\partial J(w,b)}{\partial w} \  \ \newline 
- b &= b -  \alpha \frac{\partial J(w,b)}{\partial b}  \newline \rbrace
-\end{align*}$$
+Existem dois tipos principais de regressão linear: a regressão linear simples e a regressão linear múltipla. Na regressão linear simples, existe apenas uma variável independente, enquanto na regressão linear múltipla, há várias variáveis independentes.
 
-Com o cálculo das derivadas para regressão linear simples sendo representadas por:
+A regressão linear é uma técnica poderosa que pode ser usada para prever o futuro, analisar a relação entre variáveis e identificar fatores importantes.
 
-$$
-\begin{align}
-\frac{\partial J(w,b)}{\partial w}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)})x^{(i)} \\\
-  \frac{\partial J(w,b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{w,b}(x^{(i)}) - y^{(i)}) \\\
-\end{align}
-\text{m = n° amostras (linhas)} \
-$$
-
-E para regressão linear múltipla (com w e x agora sendo vetores):
-
-$$
-\begin{align}
-\frac{\partial J(\mathbf{w},b)}{\partial w_j}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)})x_{j}^{(i)} \  \\
-\frac{\partial J(\mathbf{w},b)}{\partial b}  &= \frac{1}{m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\mathbf{x}^{(i)}) - y^{(i)}) \
-\end{align}
-\text{m = n° amostras (linhas)} \
-$$
-
-Em ambos os casos, a construção do algoritmo permite uma maior compreensão do funcionamento da regressão linear e dos métodos utilizados para encontrar a melhor linha de ajuste aos dados. Além disso, é uma oportunidade para praticar habilidades de programação e matemática, bem como para aprimorar a capacidade de análise de dados.
+Estarei realizando uma forma de implementação do zero desse algoritmo.

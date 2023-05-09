@@ -12,7 +12,7 @@ $$J(\mathbf{w},b) = \frac{1}{2m} \sum\limits_{i = 0}^{m-1} (f_{\mathbf{w},b}(\ma
 
 Descida de gradiente para múltplas variáveis:
 
-$$\begin{align*} \text{repeat}&\text{ until convergence:} \; \lbrace \newline\;
+$$\begin{align*} \text{repetir}&\text{ até convergir:} \ \lbrace \newline\
 & w_j = w_j -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial w_j} \tag{5}  \;\newline
 &b\ \ = b -  \alpha \frac{\partial J(\mathbf{w},b)}{\partial b}  \newline \rbrace
 \end{align*}$$

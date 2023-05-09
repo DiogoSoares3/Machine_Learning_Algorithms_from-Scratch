@@ -19,8 +19,8 @@ Onde
 
 $$
 \begin{align}
-  f_{\mathbf{w},b}(\mathbf{x^{(i)}}) &= g(z^{(i)})\tag{3} \\
-  z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\tag{4} \\
-  g(z^{(i)}) &= \frac{1}{1+e^{-z^{(i)}}}\tag{5} 
+  f_{\mathbf{w},b}(\mathbf{x^{(i)}}) &= g(z^{(i)})\\
+  z^{(i)} &= \mathbf{w} \cdot \mathbf{x}^{(i)}+ b\\
+  g(z^{(i)}) &= \frac{1}{1+e^{-z^{(i)}}}
 \end{align}
 $$
